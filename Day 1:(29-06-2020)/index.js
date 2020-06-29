@@ -3,11 +3,6 @@ const fs = require("fs");
 const express = require("express");
 
 var datetime = new Date();  // To get time stamp
-console.log(
-  datetime.toISOString().slice(0, 13) +
-    "." +
-    datetime.toISOString().slice(14, 16)
-);
 var fileName =
   datetime.toISOString().slice(0, 13) +
   "." +
